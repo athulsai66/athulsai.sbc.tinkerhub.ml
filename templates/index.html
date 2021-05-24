@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap-datepicker.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='owl.theme.default.min.css') }}">
+</head>
+
+<body>
+    <section id="main">
+        <nav>
+
+            <a class="navbar-brand" href="#">Creedorian</a>
+
+            <span class="spacing"></span>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Recent</a></li>
+                <li><a href="#">Clients</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+            <a href="#" class="hey"><strong>Say Hi !</strong> </a>
+        </nav>
+    </section>
+   
+    <section class="home-slider owl-carousel">
+        <div class="slider-item"  data-stellar-background-ratio="0.5"  {% if  prediction %} style="background-image: url('/static/{{prediction[0]}}');" {% endif %} >
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row slider-text justify-content-center align-items-center">
+                    <div class="col-md-7 col-sm-12 text-center ftco-animate">
+                        <h1 class="mb-3 mt-5 bread">CLASSIFIER</h1>
+                        <p class="breadcrumbs"><span class="mr-2">CHAKKA</span>
+                            <span>MANGA</span></p>
+                            <div class="container mt-5">
+                                
+                                <div class="ftco-animate">
+                                    <form action="/" class="p-3 contact-form", method="post" enctype="multipart/form-data">
+                                        <div class="form-group">
+                                            <input type="file" class="form-control" placeholder="select image" name="imagefile">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="submit" value="Predict image" class="btn btn-primary py-3 px-5">
+                                        </div>
+                                    </form>
+                                </div>                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section class="home-slider owl-carousel">
+        <div class="slider-item" data-stellar-background-ratio="0.5" {% if  prediction %}
+            style="background-image: url('/static/{{prediction[0]}}');" {% endif %}>
+            <section>
+                <div style="position: relative; margin-top: 0%;">
+                    <h1 style="text-align: center; font-size: 35px;">CLASSIFIER</h1>
+                </div>
+            </section><br>
+            <div style="text-align: center; position: re;">
+                <img src="https://th.bing.com/th/id/OIP.wL6SrzJJGluAotZNSN1pwQHaE8?w=291&h=194&c=7&o=5&dpr=1.25&pid=1.7"
+                    height="300px" width="300px" alt="image not available" style="border-end-start-radius: 20%;">
+                <img src="https://th.bing.com/th/id/OIP.SpxTza2RzSFjxosWLwpfxwHaE8?w=234&h=180&c=7&o=5&dpr=1.25&pid=1.7"
+                    height="300" width="300" style="border-end-end-radius: 20%;">
+            </div>
+            <h1 style="text-align: center;">UPLOAD TO PREDICT</h1>
+
+
+            <div style="text-align: center;">
+                <form method="POST" enctype="multipart/form-data">
+                    <input type="file" name="img">
+                    <input type="submit" value="submit">
+                </form>
+            </div>
+            {% if prediction %}
+            <h1 style="text-align: center;">{{prediction}}</h1>
+            {% endif %}
+        </div>
+    </section>
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+    <script src="{{ url_for('static', filename='jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='jquery-migrate-3.0.1.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='popper.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='jquery.easing.1.3.js') }}"></script>
+    <script src="{{ url_for('static', filename='jquery.waypoints.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='jquery.stellar.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='owl.carousel.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='aos.js') }}"></script>
+    <script src="{{ url_for('static', filename='jquery.animateNumber.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bootstrap-datepicker.js') }}"></script>
+    <script src="{{ url_for('static', filename='jquery.timepicker.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='scrollax.min.js') }}"></script>
+</body>
+
+</html>
