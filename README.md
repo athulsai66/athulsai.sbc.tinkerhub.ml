@@ -3,7 +3,7 @@
 <h1><b>Tinkerhub project</b></h1>
 A Machine Learning program to identify Chakka and Manga<br>
 <p>BY TEAM <a href="#" target="_blank">CREEDORIAN</a> | TEAM ID <a href="#" target="_blank">BFH/rec1ctBVUfCbZBUdy/2021</a><br>
-TEAM MEMBERS: <a href="https://github.com/BrightyJijiAbraham" target="_blank">BRIGHTY JIJI ABRAHAM</a> | <a href="https://github.com/amruthaaji05" target="_blank">AMRUTHA M</a> | <a href="https://github.com/hemanths007" target="_blank">HEMANTH S</a></p><br>
+TEAM MEMBERS: <a href="https://github.com/athulsai66/athulsai.sbc.tinkerhub.ml" target="_blank">ATHUL SAI</a> | <a "#" target="_blank">AYLIN MARIAM JOHNS</a> | <a "#" target="_blank">VAISHNAVY B</a></p><br>
 Day 1<br>
 &emsp;|->Git basic concepts <br>
 &emsp;|->Basic installations<br>
