@@ -1,24 +1,36 @@
-# Chakka-Manga
+![BFH Banner](https://trello-attachments.s3.amazonaws.com/542e9c6316504d5797afbfb9/542e9c6316504d5797afbfc1/39dee8d993841943b5723510ce663233/Frame_19.png)
 
-<h1><b>Tinkerhub project</b></h1>
+## Chakka Manga Classifier
 A Machine Learning program to identify Chakka and Manga<br>
-<p>BY TEAM <a href="#" target="_blank">CREEDORIAN</a> | TEAM ID <a href="#" target="_blank">BFH/rec1ctBVUfCbZBUdy/2021</a><br>
-TEAM MEMBERS: <a href="https://github.com/athulsai66/athulsai.sbc.tinkerhub.ml" target="_blank">ATHUL SAI</a> | <a "#" target="_blank">AYLIN MARIAM JOHNS</a> | <a "#" target="_blank">VAISHNAVY B</a></p><br>
-Day 1<br>
-&emsp;|->Git basic concepts <br>
-&emsp;|->Basic installations<br>
-&emsp;|->Repository creation<br>
-&emsp;|->Data collection<br>
-Day 2<br>
-&emsp;|->Data collection<br>
-&emsp;|->Training model<br>
-Day 3<br>
-&emsp;|->Learning deployment<br>
-Day 4<br>
-&emsp;|->Learning deployment<br>
-&emsp;|->Started working on deployment<br>
-Day 5<br>
-&emsp;|->Learning deployment<br>
-&emsp;|->Working on deployment<br>
-Day 6<br>
-&emsp;|->Finished deployment<br>
+
+## Team members
+<p>BY TEAM <a href="#" target="_blank">304 NOT MODIFIED</a><br>
+TEAM MEMBERS: <br>
+&emsp;1) <a href="https://github.com/BrightyJijiAbraham">BRIGHTY JIJI ABRAHAM</a>
+&emsp;2) <a AYLIN MARIAM JOHNS</a>
+&emsp;3) <a VYSHNAVI B</a></p>
+
+## Team ID
+<p>TEAM ID <a href="#" target="_blank">BFH/rec1ctBVUfCbZBUdy/2021</a><br></p>
+
+## Link to product walkthrough
+<p>https://drive.google.com/file/d/1YaUWirDQiiq6tmbkIroSSbtpw_Eb1hqz/view<br></p>
+
+## How it Works ?
+<p>
+Step 1: open the app in web<br>
+Step 2: click choose file<br>
+step 3: choose the image you want to predict<br>
+step 4: click submit<br>
+step 5: wait for some time until the output appears below the submit form and the uploaded image is loaded in the background<br>
+</p>
+
+## Libraries used
+<p>
+Flask<br>
+Tensorflow<br>
+Keras<br>
+matplotlib<br>
+sys<br>
+os<br>
+seaborn<br>
